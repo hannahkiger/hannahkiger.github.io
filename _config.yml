@@ -1,0 +1,21 @@
+# Site settings
+title: Tech, Life, and Java
+header-img: img/home-bg.png
+email: hannahkiger7@gmail.com
+copyright_name: hannahkiger
+description: > # this means to ignore newlines until "baseurl:"
+  Learn Something New
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  hannahkiger
+learn_profile: hannahkiger
+email_username: hannahkiger7@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
